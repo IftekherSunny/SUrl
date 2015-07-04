@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SUrlModelStoreContainer" CdmEntityContainer="SUrlContext">
+    <EntitySetMapping Name="tblSUrls">
+      <EntityTypeMapping TypeName="SUrlModel.tblSUrl">
+        <MappingFragment StoreEntitySet="tblSUrl">
+          <ScalarProperty Name="SUrl_ID" ColumnName="SUrl_ID" />
+          <ScalarProperty Name="LongUrl" ColumnName="LongUrl" />
+          <ScalarProperty Name="ShortUrl" ColumnName="ShortUrl" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

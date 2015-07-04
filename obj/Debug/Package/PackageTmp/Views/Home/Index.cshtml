@@ -1,0 +1,61 @@
+﻿@{
+    ViewBag.Title = "Short Url Generator";
+}
+
+    @if (ViewBag.message == "welcome back, Guest")
+    {
+    <div class="container alert-message">
+	    <div class="col-xs-10 col-xs-offset-1">
+		    <div class="alert alert-info alert-dismissible" role="alert">
+			    <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+			    <p><i class="fa fa-info-circle fa-lg"></i> Welcome Back, <b>Guest</b></p> 
+		    </div>
+	    </div>
+    </div>
+    }
+    
+    @if (ViewBag.error != null)
+    {
+    <div class="container alert-message">
+	    <div class="col-xs-10 col-xs-offset-1">
+		    <div class="alert alert-danger alert-dismissible" role="alert">
+			    <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+			    <p><i class="fa fa-times fa-lg"></i> @ViewBag.error</p> 
+		    </div>
+	    </div>
+    </div>
+    }
+    
+    @if (ViewBag.success != null)
+    {
+    <div class="container alert-message">
+	    <div class="col-xs-10 col-xs-offset-1">
+		    <div class="alert alert-success alert-dismissible" role="alert">
+			    <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+			    <p><i class="fa fa-check fa-lg"></i> @ViewBag.success</p> 
+		    </div>
+	    </div>
+    </div>
+    }
+   
+
+
+    <div class="container">
+	    <div class="col-xs-6 col-xs-offset-3 shortUrl-container">
+		    <div class="col-xs-12" >
+@using (Html.BeginForm("Index", "Home", FormMethod.Post, new { @class = "form-horizontal" }))
+{
+                <div class="form-group">
+					<div>
+						<input type="text" name="longurl" class="shortUrl-textbox form-control" placeholder="Paste your long URL here:"/> 
+					</div>
+					<div class="generator_button">					
+						<button type="submit" class="btn btn-danger"><span class="glyphicon glyphicon-link"></span> Generator</button>
+					</div>
+				</div>
+}
+            </div>
+	    </div>
+    </div>
+
+

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="E:\SUrl" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile1" publishMethod="FileSystem" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="Global.asax" publishTime="08/07/2014 01:05:20" />
+    <file relUrl="bin/SUrl.pdb" publishTime="08/07/2014 13:33:10" />
+    <file relUrl="Views/_ViewStart.cshtml" publishTime="08/07/2014 01:05:20" />
+    <file relUrl="bin/System.Net.Http.WebRequest.xml" publishTime="08/07/2014 01:05:43" />
+    <file relUrl="bin/System.Web.Providers.dll" publishTime="08/07/2014 01:05:45" />
+    <file relUrl="bin/SUrl.dll" publishTime="08/07/2014 13:33:10" />
+    <file relUrl="bin/System.Net.Http.dll" publishTime="08/07/2014 01:05:43" />
+    <file relUrl="bin/System.Net.Http.Formatting.dll" publishTime="08/07/2014 01:05:43" />
+    <file relUrl="Views/Shared/Error.cshtml" publishTime="08/07/2014 11:04:00" />
+    <file relUrl="bin/System.Net.Http.xml" publishTime="08/07/2014 01:05:43" />
+    <file relUrl="bin/Newtonsoft.Json.xml" publishTime="08/07/2014 01:05:41" />
+    <file relUrl="bin/System.Net.Http.WebRequest.dll" publishTime="08/07/2014 01:05:43" />
+    <file relUrl="bin/System.Web.Mvc.xml" publishTime="08/07/2014 01:05:42" />
+    <file relUrl="bin/System.Web.WebPages.Deployment.xml" publishTime="08/07/2014 01:05:42" />
+    <file relUrl="Content/themes/base/images/favicon.png" publishTime="08/07/2014 01:14:05" />
+    <file relUrl="bin/System.Web.WebPages.Razor.xml" publishTime="08/07/2014 01:05:42" />
+    <file relUrl="bin/System.Web.Razor.xml" publishTime="08/07/2014 01:05:41" />
+    <file relUrl="packages.config" publishTime="08/07/2014 01:05:47" />
+    <file relUrl="bin/System.Web.Http.xml" publishTime="08/07/2014 01:05:44" />
+    <file relUrl="Views/Home/Index.cshtml" publishTime="08/07/2014 11:14:09" />
+    <file relUrl="bin/EntityFramework.xml" publishTime="08/07/2014 01:05:29" />
+    <file relUrl="Scripts/modernizr.js" publishTime="08/07/2014 01:13:46" />
+    <file relUrl="Scripts/bootstrap.js" publishTime="08/07/2014 01:13:46" />
+    <file relUrl="bin/System.Web.WebPages.xml" publishTime="08/07/2014 01:05:42" />
+    <file relUrl="bin/System.Web.Http.dll" publishTime="08/07/2014 01:05:44" />
+    <file relUrl="bin/Newtonsoft.Json.dll" publishTime="08/07/2014 01:05:41" />
+    <file relUrl="bin/WebGrease.dll" publishTime="08/07/2014 01:05:46" />
+    <file relUrl="Views/Shared/_Layout.cshtml" publishTime="08/07/2014 12:19:25" />
+    <file relUrl="Content/themes/base/fonts/glyphicons-halflings-regular.svg" publishTime="08/07/2014 01:14:53" />
+    <file relUrl="Content/themes/base/fonts/fontawesome-webfont.svg" publishTime="08/07/2014 01:14:53" />
+    <file relUrl="bin/System.Web.WebPages.dll" publishTime="08/07/2014 01:05:42" />
+    <file relUrl="bin/System.Net.Http.Formatting.xml" publishTime="08/07/2014 01:05:43" />
+    <file relUrl="bin/System.Web.Razor.dll" publishTime="08/07/2014 01:05:41" />
+    <file relUrl="bin/Microsoft.Web.Infrastructure.dll" publishTime="08/07/2014 01:05:40" />
+    <file relUrl="bin/System.Web.WebPages.Deployment.dll" publishTime="08/07/2014 01:05:42" />
+    <file relUrl="bin/System.Web.Http.WebHost.dll" publishTime="08/07/2014 01:05:44" />
+    <file relUrl="Content/themes/base/images/404.png" publishTime="08/07/2014 01:14:05" />
+    <file relUrl="Content/themes/base/css/bootstrap.css" publishTime="08/07/2014 01:14:53" />
+    <file relUrl="Web.config" publishTime="08/07/2014 12:16:58" />
+    <file relUrl="bin/System.Web.Mvc.dll" publishTime="08/07/2014 01:05:42" />
+    <file relUrl="bin/System.Web.Http.WebHost.xml" publishTime="08/07/2014 01:05:44" />
+    <file relUrl="Content/themes/base/css/font-awesome.css" publishTime="08/07/2014 01:14:53" />
+    <file relUrl="bin/EntityFramework.dll" publishTime="08/07/2014 01:05:29" />
+    <file relUrl="Content/themes/base/css/style.css" publishTime="08/07/2014 12:46:17" />
+    <file relUrl="bin/System.Web.Optimization.dll" publishTime="08/07/2014 01:05:46" />
+    <file relUrl="Scripts/jquery-1.7.1.js" publishTime="08/07/2014 01:13:46" />
+    <file relUrl="bin/Antlr3.Runtime.dll" publishTime="08/07/2014 01:05:46" />
+    <file relUrl="Views/Web.config" publishTime="08/07/2014 01:05:20" />
+    <file relUrl="bin/System.Web.WebPages.Razor.dll" publishTime="08/07/2014 01:05:42" />
+  </publishProfile>
+</publishData>
